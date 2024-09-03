@@ -6,3 +6,12 @@ Bonus:
 Aggiungere alla pagina un’immagine,
 presa anch’essa da un data.
 */
+const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+        message: 'Hello Vue!'
+      }
+    }
+  }).mount('#app')
